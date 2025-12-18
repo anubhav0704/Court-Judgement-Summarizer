@@ -1,0 +1,6 @@
+torch
+transformers
+sentencepiece
+streamlit
+protobuf
+rouge-score
