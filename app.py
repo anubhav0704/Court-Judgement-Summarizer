@@ -5,7 +5,7 @@ import time
 
 st.set_page_config(page_title="Legal Judgement Summarizer", layout="wide")
 
-st.title("🇮🇳 Indian Court Judgement Summarizer")
+st.title("Indian Court Judgement Summarizer")
 st.markdown("""
 This tool uses a Transformer-based model (LED) to generate abstractive summaries of long Indian court judgements.
 It handles long documents (up to 16k tokens) and aims to extract:
@@ -62,3 +62,4 @@ if uploaded_file is not None:
 
 st.markdown("---")
 st.markdown("Developed with HuggingFace Transformers & Streamlit.")
+
